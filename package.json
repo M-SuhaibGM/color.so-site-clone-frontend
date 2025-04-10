@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "next build"  // Add this line
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.2.4",
     "@chakra-ui/react": "^2.9.3",
+    "framer-motion": "^10.16.4",  // Required for Chakra UI
     "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18",
